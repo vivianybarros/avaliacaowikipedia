@@ -1,0 +1,323 @@
+body {
+    color:black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    max-width: 1280px;
+}
+#menu {
+    border: none;
+    background-color:white;
+}
+#botao2 {
+    border: none;
+    background-color: white;
+}
+#botaoopc {
+    border: none;
+    background-color: white;
+}
+.div-wikipedia {
+    margin-left:10px;
+    display: flex;
+
+}
+#logowikipedia {
+    height: 40px;
+    aspect-ratio: auto 50/50;
+    width: 40px;
+}
+.baixoname {
+    margin-top: 3px;
+}
+.buttonconta { 
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.divcreateconta {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.opcoes {
+    margin-left: 140px;
+    margin-top: -16px;
+    border: none;
+    background-color:white;
+}
+
+
+.cabecalho ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+.divbuscar {
+    margin-left: 30px;
+    margin-right: 500px;
+    border: 1px solid gray;
+    width: 400px;
+    justify-content:space-between;
+    align-content: center;
+    padding: 8px 5px 8px;
+
+}
+#input{
+    border: none;
+    outline: none;
+    height: 15px;
+    align-items: center;
+}
+#buscar {
+    color: rgb(86,86,86);
+}
+
+#opcoesbot {
+    border:none;
+    background-color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#createconta {
+    margin-left: 10px;
+}
+
+.cabecalho {
+    margin-top: 40px;
+    color:blue;
+    position: fixed;
+}
+#hr1 {
+    margin-top: -16px;
+}
+#hr2 {
+    margin-top: -30px;
+}
+#topotable{
+    height: 48px;
+    background-color: #b0c4de;
+    width:240px;
+}
+.tableimg {
+    position: absolute;
+    top: 14px;
+    margin-left: 16px;
+}
+.menuhtmllado ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    background-color: #f1f1f1;
+}
+.menuhtmllado {
+    margin-left: 770px;
+    position: relative;
+    margin-top: -4490px;
+    width: 240px;
+    border: 1px solid black;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+.abaixotitle {
+    position: relative;
+    margin-left: -50px;
+     bottom: 10px;
+}
+.post{
+    text-align: justify;
+    margin-left: 240px;
+    margin-top: 5px;
+}
+.abaixotitledois{
+    position: relative;
+    margin-left: 800px;
+    bottom: 15px;
+    margin-top: -40px;
+}
+.tabela {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px px rgba(0,0,0,0.3);
+    border-collapse: collapse;
+    margin-left: 2px;
+
+}
+
+.tabela td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.tabela th {
+    background-color: #eaecf0;
+}
+.tabela td {
+    background-color: rgba(240, 240, 240, 0.685);
+}
+.exemplecodlist tr,th{
+    text-align: left;
+}
+#titulohtml{
+    font-family:  Times;
+
+}
+.meiotexto li {
+    display:list-item;
+    list-style-type:disc;
+}
+.meiotexto ul {
+    display:list-item;
+}
+.lateralum li {
+    justify-content:space-between;
+}
+.lateralum ul {
+    margin-left: -40px;
+}
+.lateralumpt ul  {
+    margin-top: -20px;
+}
+.lateralumpt li {
+    margin-left: 56px;
+}
+.lateraldois ul {
+    margin-top: -28px;
+    margin-left: -40px;
+}
+.lateraltres li{
+    justify-content: space-between;
+}
+.lateraltres ul{
+    margin-top: -8px;
+    margin-left: -40px;
+
+}
+.lateralquatro li{
+    justify-content: space-between;
+}
+.lateralquatro ul{
+    margin-top: -1px;
+    margin-left: -40px;
+
+}
+.exemplecodlist{
+    display: flex;
+    margin-left: 2px;
+    width: 800px;
+    background-color: #f0f0f0;
+    border: 1px solid rgb(173, 173, 173);
+    font-family: monospace;
+
+}
+#numbercolor{
+    color: rgb(172, 172, 172);
+}
+#topo{
+    color:rgba(143, 129, 3, 0.884);
+}
+code {
+    background-color: #f8f9fa;
+    color: #000;
+    border: 1px solid #eaecf0;
+}
+.logohtml ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 173px;
+    background-color: #f1f1f1;
+}
+.logohtml{
+    margin-left: 864px;
+    position: relative;
+    margin-top: 1710px;
+    width: 173px;
+    border: 1px solid rgb(175, 175, 175);
+
+}
+#logohtml{
+    margin-top: 8px;
+}
+.boxhtml{
+    display: flex;
+    border: none;
+    margin-left: 135px;
+    margin-top: -21px;
+}
+.vertambem li {
+    
+    display:list-item;
+    list-style-type:disc;
+    text-decoration: none;
+}
+.vertambem ul {
+    display:list-item;
+}
+.Bibliografia li {
+    display:list-item;
+    list-style-type:disc;
+    text-decoration: none;
+}
+.Bibliografia ul {
+    display:list-item;
+}
+.ligacoes li {
+    display:list-item;
+    list-style-type:disc;
+    text-decoration: none;
+}
+.ligacoes ul {
+    display:list-item;
+}
+.boxinf ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+}
+.boxinf{
+    margin-left: 790px;
+    position: relative;
+    margin-top: 2030px;
+    width: 250px;
+    border: 1px solid rgb(175, 175, 175);
+
+}
+#boxinf{
+    border: none;
+    display: flex;
+    margin-top: 1px;
+    margin-left: 6px;
+}
+#textboxinf{
+    display: flex;
+    margin-top: -30px;
+    margin-left:25px ;
+    font-size: 11px;
+}
+.divtabelainf ul{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(104, 104, 252);
+    border: 1px solid grey;
+}
+.divtabelainfdois ul{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(104, 104, 252);
+    border: 1px solid grey;
+}
